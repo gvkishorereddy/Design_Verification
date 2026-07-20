@@ -18,7 +18,7 @@ class second;
   function second copy();
     copy=new();
     copy.data2=data2;
-    copy.f1=f1;
+    copy.f1=f1.copy();
   endfunction
 endclass
 
