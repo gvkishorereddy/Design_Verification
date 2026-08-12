@@ -55,9 +55,8 @@ class driver;
             gen_drv.get(td);
 
 
-            // =================================================
             // WRITE = TEST UART TRANSMITTER
-            // =================================================
+        
 
             if (td.oper == WRITE) begin
 
@@ -79,11 +78,8 @@ class driver;
 
             end
 
-
-            // =================================================
             // READ = TEST UART RECEIVER
-            // =================================================
-
+        
             else begin
 
                 $display("[DRIVER][RX] Sending serial = %0h", td.dintx);
