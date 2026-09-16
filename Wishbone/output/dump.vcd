@@ -1,0 +1,129 @@
+$date
+	Wed Sep 16 15:40:38 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module wishbone_smoke_tb $end
+$var wire 8 ! rdata [7:0] $end
+$var wire 1 " ack $end
+$var reg 8 # addr [7:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % rst $end
+$var reg 1 & strb $end
+$var reg 8 ' wdata [7:0] $end
+$var reg 1 ( we $end
+$scope module dut $end
+$var wire 8 ) addr [7:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % rst $end
+$var wire 1 & strb $end
+$var wire 8 * wdata [7:0] $end
+$var wire 1 ( we $end
+$var reg 1 " ack $end
+$var reg 8 + rdata [7:0] $end
+$var reg 8 , temp [7:0] $end
+$var integer 32 - i [31:0] $end
+$var reg 2 . next_state [1:0] $end
+$var reg 2 / state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 /
+b1 .
+bx -
+bx ,
+b0 +
+b0 *
+b0 )
+0(
+b0 '
+0&
+1%
+0$
+b0 #
+0"
+b0 !
+$end
+#5000
+b10001 ,
+b1 .
+b100000000 -
+1$
+#10000
+0$
+#15000
+b100000000 -
+1$
+#20000
+0%
+0$
+#25000
+b1 /
+1$
+#30000
+b10 .
+b10100101 '
+b10100101 *
+b101 #
+b101 )
+1(
+1&
+0$
+#35000
+b0 .
+1"
+b10 /
+1$
+#40000
+0$
+#45000
+b1 .
+b10100101 ,
+0"
+b0 /
+1$
+#50000
+b1 .
+0(
+0$
+#55000
+b11 .
+b1 /
+1$
+#60000
+0$
+#65000
+b0 .
+1"
+b10100101 !
+b10100101 +
+b11 /
+1$
+#70000
+b0 .
+b10100101 !
+b10100101 +
+1"
+0&
+0$
+#75000
+b1 .
+b0 !
+b0 +
+0"
+b0 /
+1$
+#80000
+0$
+#85000
+b1 /
+1$
