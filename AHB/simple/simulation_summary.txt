@@ -1,0 +1,12 @@
+Simulator: Synopsys VCS 2025.06 (Playground reports X-2025.06-SP1_Full64)
+Random seed: 42
+Clock period: 10 ns
+Generated / observed / checked transfers: 100
+Writes: 55
+Reads: 45
+Scoreboard errors: 0
+Simulation end: 3060000 ps
+Result: [AHB_SIMPLE_PASS] checked=100 writes=55 reads=45 errors=0
+Scope: Legal, aligned, SINGLE 32-bit reads/writes to five byte addresses.
+No claim of burst, wait-state, error-response or complete coverage verification.
+Runnable source: https://www.edaplayground.com/x/jXkh
