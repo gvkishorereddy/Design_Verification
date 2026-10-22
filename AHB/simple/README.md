@@ -61,5 +61,5 @@ vcs -sverilog -f files.f
 ```
 
 Clock period: 10 ns (100 MHz). A watchdog catches hangs and scoreboard errors
-fail simulation. The Playground version combines these same source files into
-two editor panes for convenient execution; repository files remain separate.
+fail simulation. The Playground and repository both use separate files for the five classes,
+interface, RAM and definitions. The top-level files include the supporting files.
