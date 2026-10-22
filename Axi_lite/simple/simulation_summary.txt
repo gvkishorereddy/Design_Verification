@@ -1,0 +1,12 @@
+Simulator: Synopsys VCS 2025.06 (X-2025.06-SP1_Full64)
+Random seed: 42
+Clock period: 10 ns
+Generated / observed / checked transfers: 100
+Writes: 55
+Reads: 45
+Scoreboard errors: 0
+Simulation end: 4160000 ps
+Result: [AXI_SIMPLE_PASS] checked=100 writes=55 reads=45 errors=0
+Scope: Legal aligned full-word accesses to five byte addresses, AW-first writes.
+No claim of WSTRB, channel-order, backpressure or complete coverage verification.
+Runnable source: https://www.edaplayground.com/x/kZRD
